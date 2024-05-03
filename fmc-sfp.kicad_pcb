@@ -13712,6 +13712,28 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3d-models/SFP_cage.step"
+			(offset
+				(xyz -37 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3d-models/SFP_connector.step"
+			(offset
+				(xyz -6.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
