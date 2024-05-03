@@ -60,9 +60,7 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|61000000|79555000|932248a4-6be2-49aa-ba10-6a5d6d54cb6c|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|121655000|60170000|5f40981c-cae1-455c-b786-bbbc00f8c2c4|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|121655000|97170000|df0c5066-7ec6-4323-9025-8d931399cf49|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_issues|61000000|79555000|932248a4-6be2-49aa-ba10-6a5d6d54cb6c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -596,13 +594,19 @@
           "label": "Comment",
           "name": "Comment",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Comment"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -657,6 +661,14 @@
     [
       "9a4127e9-981d-42fd-bc3c-a0fb85e0287b",
       "Root"
+    ],
+    [
+      "58079b55-4f35-460f-8da3-d889fa8840cc",
+      "SPF0"
+    ],
+    [
+      "d68ae640-554a-4a65-a530-22cc8d201b9c",
+      "SPF1"
     ]
   ],
   "text_variables": {}
