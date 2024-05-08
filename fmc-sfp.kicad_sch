@@ -6984,7 +6984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 196.85 139.7 0)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500XD"
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 196.85 139.7 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B102K500SD"
+		(property "MPN" "C0603C102K5RAC7867"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -10207,7 +10207,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 200.66 93.98 0)
 			(effects
 				(font
@@ -10216,7 +10216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B104K500XD"
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 200.66 93.98 0)
 			(effects
 				(font
@@ -10745,7 +10745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -10754,7 +10754,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B102K500SD"
+		(property "MPN" "C0603C102K5RAC7867"
 			(at 208.28 139.7 0)
 			(effects
 				(font

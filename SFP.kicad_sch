@@ -1884,7 +1884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  SFPK-SL"
+		(property "MPN" "SFPK-SL"
 			(at 132.08 64.77 0)
 			(effects
 				(font

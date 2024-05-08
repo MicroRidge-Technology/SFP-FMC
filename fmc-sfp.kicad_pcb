@@ -80,6 +80,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 50 45)
 		(grid_origin 71.4 71.78)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
@@ -95,7 +96,7 @@
 			(plotframeref no)
 			(viasonmask no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
 			(hpglpendiameter 15.000000)
@@ -114,9 +115,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "manufacture/")
 		)
 	)
 	(net 0 "")
@@ -2624,7 +2625,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2637,7 +2638,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B102K500SD"
+		(property "MPN" "C0603C102K5RAC7867"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5139,7 +5140,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5152,7 +5153,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B102K500SD"
+		(property "MPN" "C0603C102K5RAC7867"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5611,7 +5612,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5624,7 +5625,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B104K500XD"
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6097,7 +6098,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Aillen"
+		(property "MANUFACTURER" "KEMET"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6110,7 +6111,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B104K500XD"
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8387,7 +8388,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "  SFPK-SL"
+		(property "MPN" "SFPK-SL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11875,7 +11876,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "  SFPK-SL"
+		(property "MPN" "SFPK-SL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
