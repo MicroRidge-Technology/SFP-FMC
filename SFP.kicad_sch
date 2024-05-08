@@ -1874,7 +1874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Samtec"
+		(property "MANUFACTURER" "HCTL"
 			(at 132.08 64.77 0)
 			(effects
 				(font
@@ -1884,7 +1884,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SFPK-SL"
+		(property "MPN" "HC-SFP-20P"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Cage shell is Mfr Part#: HC-SFP-01L"
 			(at 132.08 64.77 0)
 			(effects
 				(font

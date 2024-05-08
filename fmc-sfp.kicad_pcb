@@ -1017,7 +1017,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1030,7 +1030,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1253,7 +1253,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1266,7 +1266,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1502,7 +1502,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1515,7 +1515,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1751,7 +1751,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1764,7 +1764,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1987,7 +1987,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2223,7 +2223,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2236,7 +2236,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2575,7 +2575,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2588,7 +2588,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C102K5RAC7867"
+		(property "MPN" "CC0603FRNPO8BN102"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2824,7 +2824,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2837,7 +2837,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5079,7 +5079,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5092,7 +5092,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C102K5RAC7867"
+		(property "MPN" "CC0603FRNPO8BN102"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5315,7 +5315,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5328,7 +5328,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5551,7 +5551,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5564,7 +5564,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C104M5RAC7867"
+		(property "MPN" "CC0603KRX7R7BB104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5800,7 +5800,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5813,7 +5813,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6037,7 +6037,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "KEMET"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6050,7 +6050,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C104M5RAC7867"
+		(property "MPN" "CC0603KRX7R7BB104"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6612,7 +6612,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6625,7 +6625,7 @@
 				)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6885,7 +6885,7 @@
 		(path "/4b1b3996-5f56-4db8-877a-f2ef484b4385")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -7190,7 +7190,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7204,7 +7204,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7466,7 +7466,7 @@
 		(path "/8823d8c2-acb6-429a-88f5-478023a8d785")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -7771,7 +7771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7785,7 +7785,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8029,7 +8029,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8043,7 +8043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8271,7 +8271,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Samtec"
+		(property "MANUFACTURER" "HCTL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8327,12 +8327,26 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SFPK-SL"
+		(property "MPN" "HC-SFP-20P"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b39b05b3-81a6-49ff-9238-1d4702cd4560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Comment" "Cage shell is Mfr Part#: HC-SFP-01L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92105829-1baf-4b4f-9fb3-cf1f800b4ec0")
 			(effects
 				(font
 					(size 1 1)
@@ -9283,7 +9297,7 @@
 		(path "/00a424d2-14e3-4836-8ae2-5827e3c12a65")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -10434,7 +10448,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10448,7 +10462,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10692,7 +10706,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10706,7 +10720,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "RT0603BRE0710KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10936,7 +10950,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
+		(property "MANUFACTURER" "Yageo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10950,7 +10964,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
+		(property "MPN" "CC0603KRX7R6BB105"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11212,7 +11226,7 @@
 		(path "/282cca5e-17e5-4931-a457-826d0c28a02f")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -11801,7 +11815,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER" "Samtec"
+		(property "MANUFACTURER" "HCTL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11815,12 +11829,26 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SFPK-SL"
+		(property "MPN" "HC-SFP-20P"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "035b66e3-7051-4edd-9bb6-b8705222a7e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Comment" "Cage shell is Mfr Part#: HC-SFP-01L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36543b02-e793-4343-92bb-3e77fcc17b62")
 			(effects
 				(font
 					(size 1 1)
