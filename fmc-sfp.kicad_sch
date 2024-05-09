@@ -7775,7 +7775,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00a424d2-14e3-4836-8ae2-5827e3c12a65")
 		(property "Reference" "J5"
 			(at 205.2204 118.11 0)
@@ -8133,7 +8133,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "282cca5e-17e5-4931-a457-826d0c28a02f")
 		(property "Reference" "J6"
 			(at 201.4104 161.29 0)
@@ -8875,7 +8875,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1b3996-5f56-4db8-877a-f2ef484b4385")
 		(property "Reference" "J7"
@@ -10229,7 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 43.18 106.68 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8823d8c2-acb6-429a-88f5-478023a8d785")
 		(property "Reference" "J4"
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 43.18 162.56 0)
 			(effects
 				(font

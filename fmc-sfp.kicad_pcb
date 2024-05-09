@@ -339,7 +339,7 @@
 				)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6885,7 +6885,7 @@
 		(path "/4b1b3996-5f56-4db8-877a-f2ef484b4385")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -7466,7 +7466,7 @@
 		(path "/8823d8c2-acb6-429a-88f5-478023a8d785")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -9297,7 +9297,7 @@
 		(path "/00a424d2-14e3-4836-8ae2-5827e3c12a65")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -11226,7 +11226,7 @@
 		(path "/282cca5e-17e5-4931-a457-826d0c28a02f")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 3.68 -1.8)
 			(end 3.68 1.8)
@@ -11545,7 +11545,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
