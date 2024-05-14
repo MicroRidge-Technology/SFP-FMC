@@ -1,6 +1,13 @@
 set -x
+set -e
 PROJECT=$1
+rm -rf manufacture
 mkdir manufacture
+
+#Set commit in silkscreen
+githash=$(git describe --tags --always --dirty)
+sed -i "s/Git Commit:.*\"/Git Commit:$githash\"/" ${PROJECT}.kicad_pcb 
+
 kicad-cli pcb export drill ${PROJECT}.kicad_pcb  -o manufacture/
 kicad-cli pcb export gerbers ${PROJECT}.kicad_pcb  --board-plot-params -o manufacture
 (cd manufacture; zip ${PROJECT}-gbr.zip *.drl *.gbr *.gbrjob )
