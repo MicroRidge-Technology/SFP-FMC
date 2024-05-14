@@ -11,8 +11,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  DOCKER_ARGS:  '--rm  -v $(pwd):$(pwd) -w $(pwd)  -u $(id -u):$(id -g)'
-
+  PROJECT : 'fmc-sfp'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   drc:
@@ -22,10 +21,12 @@ jobs:
       options: --user root
     steps:
       - uses: actions/checkout@v4
-      - name: run pcb-drc
-        run:  kicad-cli pcb drc -exit-code-violations fmc-sfp.kicad_pcb
-      - name: run sch-erc
-        run:  kicad-cli sch drc -exit-code-violations fmc-sfp.kicad_sch
-      # Runs a set of commands using the runners shell
-      #- name: Run a command to make sure verilator is installed!
+      - run: apt-get update && apt-get install zip git
+      - name: Generate board files
+        run: bash board_files.sh ${{env.PROJECT}}
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with: 
+          name: Artifacts
+          path: manufacture/*
       
