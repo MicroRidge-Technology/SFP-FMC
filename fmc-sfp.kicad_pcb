@@ -348,6 +348,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9defdc5-38a2-43bd-87c3-adaa8acfdf0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c5a4269b-48b9-41d4-a4ee-3092dcfda3fb")
 		(sheetname "Root")
@@ -577,6 +590,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0db50cb7-9527-4c73-bfbb-8761feb03b57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd9afa3c-b9a0-4d13-a674-ec9eca449577")
 			(effects
 				(font
 					(size 1 1)
@@ -899,6 +925,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97092810-8142-4cd3-98d5-edc7390fc50e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/32863988-3c75-4da2-9f98-c4ef6df87ce7")
 		(sheetname "Root")
@@ -1032,6 +1071,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75544b95-20d5-469c-ab07-57d7d9bea2f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c5fc796-057d-44b2-acf7-33ca9fe1f2d8")
 			(effects
 				(font
 					(size 1 1)
@@ -1268,6 +1320,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a03e5a18-176e-49d0-b7bd-36e97775b3c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07075806-a09c-47a8-a826-d4944dd10529")
 			(effects
 				(font
 					(size 1 1)
@@ -1524,6 +1589,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54973562-354e-4224-aa38-a87c303007e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f0739454-6f8b-4bc4-8bb0-dc1d45ae130f")
 		(sheetname "Root")
@@ -1773,6 +1851,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9378a248-3567-4706-8abc-14f5435f5ac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d03c3d76-6c0f-4b75-b3f4-78bc5ce214f2")
 		(sheetname "Root")
@@ -2002,6 +2093,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6bdd93c-c3c8-43c7-9774-3f555cf277f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bfc277b-81b2-4e24-9276-ee9d25d1d363")
 			(effects
 				(font
 					(size 1 1)
@@ -2245,6 +2349,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8302ddea-d6de-4c01-9e6e-731e42df3490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b8de3886-89de-400f-8b60-ee04720539ad")
 		(sheetname "Root")
@@ -2457,6 +2574,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f07f2a4-df57-48db-92aa-22e00bb7fc26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/33e89e63-a642-49ec-b2fe-bf770a7cc84c")
 		(sheetname "Root")
@@ -2590,6 +2720,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bec04789-cc93-4044-8a69-b5a4be26fcf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55ae653-eebf-4dec-8ee5-fc8931c23eba")
 			(effects
 				(font
 					(size 1 1)
@@ -2839,6 +2982,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1bc673e-97d9-409f-ba24-1152bef12ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b0d4f86-d9b4-4479-832e-7fc4a527cdc9")
 			(effects
 				(font
 					(size 1 1)
@@ -3113,6 +3269,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ace20e92-dbcc-45c3-9cb1-c18dae454ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7fd138e-bff4-45a1-885a-62ae1ae1988f")
 			(effects
 				(font
 					(size 1 1)
@@ -5101,6 +5270,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb806484-e3b4-4210-a35b-df3887d914c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1165347-0e21-4b55-a62e-7174b02b9fd4")
 		(sheetname "Root")
@@ -5337,6 +5519,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35690e8d-f298-42d8-804b-e13db6ee4346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/53e2341e-b461-4b31-9237-6dfec78ffece")
 		(sheetname "Root")
@@ -5566,6 +5761,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5bc7bc5f-b1e3-4c2d-8234-cfb8e8a8ec2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9d11fb-431b-47e8-864e-07e8112e1d14")
 			(effects
 				(font
 					(size 1 1)
@@ -5822,6 +6030,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "105a0e81-c545-4166-b843-ba21ae513847")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f8a42147-68fe-43fe-bc82-1b4b384eb5d5")
 		(sheetname "Root")
@@ -6059,6 +6280,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f973fbf8-e1ea-499b-867f-8118dc9c7b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1e3886f1-efb8-48fc-9ed2-4addf2258e98")
 		(sheetname "Root")
@@ -6288,6 +6522,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "655597c5-9793-4b1d-bd74-d90afb849b28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a553fa7e-9ca2-4b4d-be57-7bd5f0d48fda")
 			(effects
 				(font
 					(size 1 1)
@@ -6634,6 +6881,19 @@
 				)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7f4e5c0-e957-4abf-9007-5ce292a5afc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/475b9be2-facf-4bde-8f73-d2b3dc5502d6")
 		(sheetname "Root")
@@ -6869,6 +7129,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cdcda50e-fa63-4703-a58f-bde8f49c95b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "859877fb-d332-4dc5-994b-ef01f50ec58e")
 			(effects
 				(font
 					(size 1 1)
@@ -7214,6 +7488,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a272503-3ae5-4f87-9723-5f9d6d4c4a71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/820e754e-ab0a-4abb-89c6-dd19ef9037e2")
 		(sheetname "Root")
@@ -7450,6 +7738,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6ceae588-0368-409b-bdc8-5d98605028ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "530eed86-5a53-403d-9a19-ef0b4a8cf68a")
 			(effects
 				(font
 					(size 1 1)
@@ -7795,6 +8097,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6824e215-46a9-4484-a88b-a001f83eda12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/75c59bbf-3710-4b50-b149-838c73c9e009")
 		(sheetname "Root")
@@ -8053,6 +8369,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "820835f7-4b0a-4736-8fe6-8052387621e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7e72c8d2-9d34-4f65-8952-bd1251fb17ce")
 		(sheetname "Root")
@@ -8265,6 +8595,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "492f9150-0608-4a6a-8f5b-d85c2e946bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "871eb2da-bf83-4621-ad8b-8e266882d266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "SFPK-SL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "117ac721-052d-41b5-a399-2aa3125c00e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9218,6 +9590,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2fe0fadd-ef76-4197-81f0-06cd55d174e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "812c5a68-c686-4dc5-84f7-24c20020e1d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "SFPK-SL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59ebeec9-47ef-4efe-8b11-7fa893b981cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10195,6 +10609,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b7c35b06-6dd7-4262-b6a4-69ba2f544279")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ded7b171-709b-4c7d-bf0d-72a86266d064")
 			(effects
 				(font
 					(size 1 1)
@@ -11386,6 +11814,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50fbe8ab-9970-42aa-844e-8af7c121928c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/991040f3-43a3-42c1-887d-3d9d0498ef5d")
 		(sheetname "Root")
@@ -11644,6 +12086,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a91af9c5-2aba-4158-bd4d-1c4a05bcf652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4ed4a278-4d84-4fc3-aaac-d4e045842013")
 		(sheetname "Root")
@@ -11888,6 +12344,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57b00c78-54b6-40fb-a6f7-32e4854a5d51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2f1fea1f-d7aa-4f4d-bf3d-ce7dac60262c")
 		(sheetname "Root")
@@ -12124,6 +12594,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7ab4f04e-b98c-4bbb-a63a-7067a9e245bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cc8b4b9-8401-4ae4-b042-d1bb2863d0d6")
 			(effects
 				(font
 					(size 1 1)
@@ -12461,6 +12945,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "48f3b655-efba-4226-b959-cb8421875d65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad3f0369-11dd-40db-966d-a413f20a85d1")
 			(effects
 				(font
 					(size 1 1)
