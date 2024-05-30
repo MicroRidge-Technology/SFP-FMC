@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "9a4127e9-981d-42fd-bc3c-a0fb85e0287b")
 	(paper "A4")
+	(title_block
+		(title "FMC-SFP")
+		(date "2024-05-08")
+		(rev "Rev0")
+		(company "MicroRidge Technology LTD")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
