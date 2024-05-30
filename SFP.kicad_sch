@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "d4d45ede-f89c-43d7-b5b2-dc2ae02b0a4d")
 	(paper "A4")
+	(title_block
+		(title "FMC-SFP")
+		(date "2024-05-08")
+		(rev "Rev0")
+		(company "MicroRidge Technology LTD")
+	)
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
