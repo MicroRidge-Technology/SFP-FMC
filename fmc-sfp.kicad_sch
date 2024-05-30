@@ -302,6 +302,139 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1024,6 +1157,231 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4761,6 +5119,114 @@
 				)
 			)
 		)
+		(symbol "project:VADJ"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VADJ"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VADJ\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VADJ_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VADJ_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 205.74 64.77)
@@ -4793,16 +5259,16 @@
 		(uuid "1024ae9f-98a7-45f8-88ad-98a74f919d83")
 	)
 	(junction
-		(at 43.18 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12e45df4-3255-4929-aaf2-87b8796134fa")
-	)
-	(junction
 		(at 88.9 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14ade99c-1fdd-42b7-a9b7-4e3f1c667171")
+	)
+	(junction
+		(at 50.8 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16fb0dbe-7cbb-47e0-844c-67ef19c3458a")
 	)
 	(junction
 		(at 172.72 34.29)
@@ -4851,6 +5317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "470bf400-7896-487c-a41a-8f7f1a59de34")
+	)
+	(junction
+		(at 50.8 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4976db86-5bb4-4a18-8f90-576c28fd0b75")
 	)
 	(junction
 		(at 121.92 34.29)
@@ -4959,12 +5431,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ebf218b-a3b7-4be8-b9b5-e4888bb70089")
-	)
-	(junction
-		(at 39.37 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86766aff-3c4a-4ea0-a92f-b3e8ea3de8e9")
 	)
 	(junction
 		(at 187.96 34.29)
@@ -5091,12 +5557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a520eb89-7356-4e54-bf4c-530bc92c4a39")
-	)
-	(junction
-		(at 39.37 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a81ad95d-547c-46ec-a9cb-49cda4d403e5")
 	)
 	(junction
 		(at 139.7 34.29)
@@ -5247,12 +5707,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd7fd9d1-b36d-44e9-90d6-cdf3ba254d14")
-	)
-	(junction
-		(at 43.18 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fea4de4a-9f2d-453a-a882-eb6d1073fe9e")
 	)
 	(junction
 		(at 165.1 34.29)
@@ -5882,16 +6336,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 148.59) (xy 43.18 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1542b9f9-c178-42ca-8b26-5bd761f5e998")
-	)
-	(wire
-		(pts
 			(xy 139.7 68.58) (xy 144.78 68.58)
 		)
 		(stroke
@@ -6172,7 +6616,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 43.18 92.71)
+			(xy 35.56 92.71) (xy 50.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6212,7 +6656,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 177.8) (xy 39.37 177.8)
+			(xy 35.56 177.8) (xy 50.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6322,7 +6766,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 121.92) (xy 39.37 121.92)
+			(xy 35.56 121.92) (xy 50.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6632,6 +7076,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 113.03) (xy 78.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f740ba-63be-41e5-baf1-89247a37ec83")
+	)
+	(wire
+		(pts
 			(xy 73.66 62.23) (xy 73.66 64.77)
 		)
 		(stroke
@@ -6679,16 +7133,6 @@
 			(type default)
 		)
 		(uuid "5cd88a69-f877-4a74-9160-fa7178976410")
-	)
-	(wire
-		(pts
-			(xy 35.56 92.71) (xy 43.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e69ae2a-0ed1-4e83-8ef6-225df818eecd")
 	)
 	(wire
 		(pts
@@ -7102,16 +7546,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 121.92) (xy 39.37 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ebd796-505f-4e56-afd9-b3647b1fab35")
-	)
-	(wire
-		(pts
 			(xy 81.28 62.23) (xy 81.28 64.77)
 		)
 		(stroke
@@ -7462,7 +7896,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 148.59) (xy 43.18 148.59)
+			(xy 35.56 148.59) (xy 50.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7562,6 +7996,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 100.33) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba813149-6b6a-4086-a56f-2a098865892f")
+	)
+	(wire
+		(pts
 			(xy 243.84 64.77) (xy 251.46 64.77)
 		)
 		(stroke
@@ -7649,6 +8093,16 @@
 			(type default)
 		)
 		(uuid "c44aa5b3-cd0b-4919-bbc0-def8aa636dda")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 63.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c491d77c-c76a-4724-a696-0646093c4edd")
 	)
 	(wire
 		(pts
@@ -7872,13 +8326,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 177.8) (xy 39.37 177.8)
+			(xy 63.5 92.71) (xy 50.8 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb496473-904e-4835-97b0-c7ebd4f3323a")
+		(uuid "ea60a447-7832-42f9-844c-293aa7a7e9d8")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 63.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece6a53c-e70c-47b3-a839-e1f8ed5e72ac")
 	)
 	(wire
 		(pts
@@ -8002,6 +8466,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1667e2-438b-43e7-9f55-8fed23736b80")
+	)
+	(wire
+		(pts
 			(xy 119.38 34.29) (xy 119.38 36.83)
 		)
 		(stroke
@@ -8049,16 +8523,6 @@
 			(type default)
 		)
 		(uuid "ff95708c-a3f1-4c77-9467-6204cb890732")
-	)
-	(text "VSS is VADJ"
-		(exclude_from_sim no)
-		(at 269.748 41.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "521ed9f9-8515-402b-981e-574724876c0b")
 	)
 	(label "lvds_1_tx_N"
 		(at 152.4 156.21 0)
@@ -8126,6 +8590,17 @@
 		)
 		(uuid "1f515d98-1ff2-4606-8004-41fc292aabe3")
 	)
+	(label "bias_hi"
+		(at 43.18 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2622c8dd-0867-401f-aa77-4a93ec96da86")
+	)
 	(label "TX1"
 		(at 195.58 154.94 180)
 		(fields_autoplaced yes)
@@ -8191,6 +8666,17 @@
 			(justify left bottom)
 		)
 		(uuid "47e067ff-8914-4895-881c-9c66ead85f7d")
+	)
+	(label "bias_lo"
+		(at 42.164 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48d20095-9aee-4052-bdd7-046822a3f41c")
 	)
 	(label "lvds_0_rx_N"
 		(at 118.11 105.41 180)
@@ -8279,6 +8765,17 @@
 			(justify left bottom)
 		)
 		(uuid "7ad389cf-652f-4090-b762-beacb2c7a83b")
+	)
+	(label "bias_lo"
+		(at 42.418 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7efa8070-9026-41d6-8038-c833e61074a3")
 	)
 	(label "FMC_LA32_P"
 		(at 95.25 158.75 180)
@@ -8467,6 +8964,17 @@
 		)
 		(uuid "db92d792-3e84-4791-aa49-816003f6876f")
 	)
+	(label "bias_hi"
+		(at 39.878 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4bed822-50bb-4221-9607-2d9b7c22d3e4")
+	)
 	(label "FMC_LA09_P"
 		(at 50.8 106.68 0)
 		(fields_autoplaced yes)
@@ -8590,6 +9098,91 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 104.14 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e65a53c-8b3d-46b1-9b05-c7b79698fa7c")
+		(property "Reference" "R10"
+			(at 99.822 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 104.394 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18b44310-4ddb-40b7-9b60-3d5d28d316e4")
+		)
+		(pin "1"
+			(uuid "a8d3995d-0932-4f4f-ad0a-d19861864f6c")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8777,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.816 171.704 90)
 			(effects
 				(font
@@ -8813,7 +9406,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 50.8 171.45 0)
 			(effects
 				(font
@@ -8822,7 +9415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 50.8 171.45 0)
 			(effects
 				(font
@@ -8850,102 +9443,6 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a928065-5c33-432d-92ff-4052ed46f9c8")
-		(property "Reference" "C3"
-			(at 102.8635 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 105.4035 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6756801-116b-4db5-88b1-1dde37c2c1c3")
-		)
-		(pin "2"
-			(uuid "63176f5a-64cf-4dac-815d-3292ca04522b")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9211,101 +9708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.79 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f1fea1f-d7aa-4f4d-bf3d-ce7dac60262c")
-		(property "Reference" "C4"
-			(at 100.838 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 97.7837 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f2d0bf3-6156-43df-af30-813523e8a3c3")
-		)
-		(pin "2"
-			(uuid "89fc85cf-6077-4bfe-8879-74755030da20")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 276.86 147.32 90)
 		(unit 1)
@@ -9447,72 +9849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 264.16 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33d26176-b7e0-4567-b153-1439ef73a03f")
-		(property "Reference" "#PWR02"
-			(at 264.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 264.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 264.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ccbd91f-95a9-4085-ada3-0e9f1fc6b43f")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 276.86 157.48 90)
 		(unit 1)
@@ -9587,103 +9923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 168.91 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36c2365a-c043-4741-97c7-c3c57ac47d05")
-		(property "Reference" "C8"
-			(at 101.6 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 105.4035 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 104.14 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dd13abf-f585-491e-b8cb-ad2e920ba5a4")
-		)
-		(pin "2"
-			(uuid "0a8a3eb4-2ef7-44a0-b085-5c7558e488b1")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 128.27 0)
 		(unit 1)
@@ -9745,101 +9984,6 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.79 158.75 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "475b9be2-facf-4bde-8f73-d2b3dc5502d6")
-		(property "Reference" "C5"
-			(at 100.838 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 97.7837 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81156322-69f0-4736-82dd-684f9068427f")
-		)
-		(pin "2"
-			(uuid "4cf84560-55e8-4d3c-b4ff-0ab532177a62")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10035,7 +10179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.544 99.314 90)
 			(effects
 				(font
@@ -10071,7 +10215,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 35.56 99.06 0)
 			(effects
 				(font
@@ -10080,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 35.56 99.06 0)
 			(effects
 				(font
@@ -10175,100 +10319,6 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.79 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53e2341e-b461-4b31-9237-6dfec78ffece")
-		(property "Reference" "C6"
-			(at 92.456 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 95.25 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "379a0f37-39e2-464b-b8b0-e8371c815f42")
-		)
-		(pin "2"
-			(uuid "67afa130-c675-4a00-aa70-ddeb2864aa88")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11011,17 +11061,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 251.46 26.67 0)
+		(lib_id "Switch:SW_DIP_x02")
+		(at 71.12 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e758cc9-edb7-4981-be68-179cdfd7adbe")
-		(property "Reference" "#PWR06"
-			(at 251.46 30.48 0)
+		(uuid "669ce8bf-2402-4b49-8ae5-3588895a5841")
+		(property "Reference" "SW1"
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHS-02TB"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm"
+			(at 71.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,16 +11095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSS"
-			(at 251.46 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 26.67 0)
+		(property "Datasheet" "~"
+			(at 71.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,8 +11104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 251.46 26.67 0)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 71.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,39 +11113,72 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 251.46 26.67 0)
+		(property "MANUFACTURER" "Nidec Components Corporation"
+			(at 71.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MPN" "CHS-02TB"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ab37d5dd-db6b-4878-8103-b0a665749463")
+		)
+		(pin "3"
+			(uuid "edf5656a-b914-4ee2-af40-c675c80367bf")
+		)
+		(pin "2"
+			(uuid "ccce5f4b-0661-4c7e-af10-7c38134b2f31")
 		)
 		(pin "1"
-			(uuid "5ed074f6-c01e-4e4f-81db-dde6c4539592")
+			(uuid "8497547a-fefb-4e38-9ea1-3ddc9b7f7aac")
 		)
 		(instances
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "#PWR06")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 43.18 148.59 0)
+		(lib_id "Device:R_Small_US")
+		(at 97.79 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ade59e-0c5f-4c09-a49e-8c55f049b2c1")
-		(property "Reference" "#PWR04"
-			(at 43.18 152.4 0)
+		(uuid "74ba2fd1-f5d0-491e-8d83-be67b6d94c97")
+		(property "Reference" "R7"
+			(at 97.79 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 101.346 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,16 +11186,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSS"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 148.59 0)
+		(property "Datasheet" "~"
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,8 +11195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 43.18 148.59 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,22 +11204,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 43.18 148.59 0)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 97.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5800972-7bd3-42e8-809e-db7d3441a3f2")
 		)
 		(pin "1"
-			(uuid "e2e85689-95ae-4b59-94b8-e4e74ec7ef60")
+			(uuid "f7b97d4b-2318-4cff-9361-b75d9ee8bfc3")
 		)
 		(instances
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "#PWR04")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11170,7 +11265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.816 115.824 90)
 			(effects
 				(font
@@ -11206,7 +11301,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 50.8 115.57 0)
 			(effects
 				(font
@@ -11215,7 +11310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 50.8 115.57 0)
 			(effects
 				(font
@@ -11427,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.434 105.664 90)
 			(effects
 				(font
@@ -11463,7 +11558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 43.18 106.68 0)
 			(effects
 				(font
@@ -11472,7 +11567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "0805W8F1000T5E"
 			(at 43.18 106.68 0)
 			(effects
 				(font
@@ -11630,7 +11725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.816 99.314 90)
 			(effects
 				(font
@@ -11666,7 +11761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -11675,7 +11770,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -11736,7 +11831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.544 115.824 90)
 			(effects
 				(font
@@ -11772,7 +11867,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 35.56 115.57 0)
 			(effects
 				(font
@@ -11781,7 +11876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 35.56 115.57 0)
 			(effects
 				(font
@@ -11975,17 +12070,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 177.8 0)
+		(lib_id "project:VADJ")
+		(at 264.16 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92b443d4-cc2c-4423-8589-89f2195ed6f7")
-		(property "Reference" "#PWR014"
-			(at 39.37 184.15 0)
+		(uuid "9c7c59ac-85e7-4ff5-90a1-8947bd5dee40")
+		(property "Reference" "#PWR04"
+			(at 264.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,17 +12088,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 39.37 182.88 0)
+		(property "Value" "VADJ"
+			(at 264.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 177.8 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 177.8 0)
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,74 +12114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "450f4a1f-0048-44e9-a5c5-2bd3e258d6dd")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 43.18 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "972e5246-ceee-45eb-880c-54dd1794c4cc")
-		(property "Reference" "#PWR010"
-			(at 43.18 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 43.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 43.18 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"VADJ\""
+			(at 264.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,106 +12124,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "96e22bfb-2922-4587-9a57-c25c6b6ee644")
+			(uuid "58513ac9-f131-440d-a873-2096eefdd842")
 		)
 		(instances
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.79 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "991040f3-43a3-42c1-887d-3d9d0498ef5d")
-		(property "Reference" "C1"
-			(at 92.456 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 95.25 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5300bd6a-6721-4b8f-ac4b-cda2e48cf94d")
-		)
-		(pin "2"
-			(uuid "870a1e04-d3fd-415b-8ed3-1816457eb4d4")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C1")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12336,17 +12270,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 121.92 0)
+		(lib_id "project:VADJ")
+		(at 251.46 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b24e2d81-2fde-4adc-9ec7-1b64d1d68959")
-		(property "Reference" "#PWR011"
-			(at 39.37 128.27 0)
+		(uuid "b164e23b-a730-40c3-8dde-cbcf6bb835eb")
+		(property "Reference" "#PWR02"
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12354,17 +12288,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 39.37 127 0)
+		(property "Value" "VADJ"
+			(at 251.46 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 121.92 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,7 +12306,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 121.92 0)
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VADJ\""
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eca1cf9-2228-449c-87cf-92c3bc9bcd95")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b24e2d81-2fde-4adc-9ec7-1b64d1d68959")
+		(property "Reference" "#PWR011"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +12382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 121.92 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,6 +12470,242 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 104.14 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b60c257c-8d86-4146-96c2-75ceb790a389")
+		(property "Reference" "R9"
+			(at 99.822 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 104.394 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7292f174-ea16-45bc-871b-46763a257162")
+		)
+		(pin "1"
+			(uuid "c7904a6f-f1d2-42f1-8e43-d9120c44fa6f")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:VADJ")
+		(at 78.74 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78954f9-6525-444b-92f1-f117fd270876")
+		(property "Reference" "#PWR06"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VADJ"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VADJ\""
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b9a84e-75eb-41f2-88a5-13df241f989f")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 97.79 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b854ad99-0cde-492b-a73c-7725ed8ddfad")
+		(property "Reference" "R15"
+			(at 97.79 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 101.854 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c36b1158-ac41-4721-89ea-8ecd4fcea856")
+		)
+		(pin "1"
+			(uuid "d63e5e16-72c5-4540-80bc-6ae4c1a4274f")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 260.35 109.22 0)
 		(unit 1)
@@ -12530,103 +12766,6 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 113.03 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8de3886-89de-400f-8b60-ee04720539ad")
-		(property "Reference" "C2"
-			(at 102.8635 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 105.4035 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 104.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ea799b3-c51d-481a-86ee-0deab6bcf83f")
-		)
-		(pin "2"
-			(uuid "b1af668e-4ecf-4020-a5e0-e73a6f1dbdb2")
-		)
-		(instances
-			(project "fmc-sfp"
-				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12887,7 +13026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.434 161.544 90)
 			(effects
 				(font
@@ -12923,7 +13062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 43.18 162.56 0)
 			(effects
 				(font
@@ -12932,7 +13071,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  RC0402FR-07100KL"
+		(property "MPN" "0805W8F1000T5E"
 			(at 43.18 162.56 0)
 			(effects
 				(font
@@ -12960,6 +13099,91 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 104.14 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca4ec919-b8c7-46c9-9fd4-8da6b12812eb")
+		(property "Reference" "R17"
+			(at 100.076 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 104.648 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fce9ac3d-e3e2-46db-b09b-8b00de40844a")
+		)
+		(pin "1"
+			(uuid "7d114841-8bf4-42da-97ba-bf00bcf00800")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13107,7 +13331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.544 171.704 90)
 			(effects
 				(font
@@ -13143,7 +13367,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 35.56 171.45 0)
 			(effects
 				(font
@@ -13152,7 +13376,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 35.56 171.45 0)
 			(effects
 				(font
@@ -13186,34 +13410,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 166.37 270)
+		(lib_id "Device:R_Small_US")
+		(at 97.79 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0db4df2-a207-44f4-b0e2-2f8275048c0d")
-		(property "Reference" "C7"
-			(at 101.6 164.084 90)
+		(uuid "d4fbeaa3-0b8d-4bce-b115-a5dec4f9d345")
+		(property "Reference" "R8"
+			(at 97.79 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 105.4035 163.83 90)
+		(property "Value" "0"
+			(at 101.6 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 166.37 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 166.37 0)
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,8 +13452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 166.37 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,8 +13461,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TDK Corporation"
-			(at 104.14 166.37 0)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,34 +13470,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  C1608X7R1C105K080DC"
-			(at 104.14 166.37 0)
+		(property "MPN" "0805W8F0000T5E"
+			(at 97.79 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 104.14 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a66f2a-8e6a-4a6c-96a8-25a656a34f38")
 		)
 		(pin "2"
-			(uuid "d0704ac4-10fc-49f0-b44b-1ca06e722c1d")
+			(uuid "9b7433e0-3b6a-4f06-84c7-541d812634e9")
+		)
+		(pin "1"
+			(uuid "a9527330-d130-407d-893c-e3e7a406adf8")
 		)
 		(instances
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
-					(reference "C7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13373,6 +13586,91 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 104.14 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3d0b508-d500-44fd-8c78-f5f5c37db603")
+		(property "Reference" "R18"
+			(at 100.076 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 104.648 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60448256-9f62-4bf3-a10d-a82cc5943468")
+		)
+		(pin "1"
+			(uuid "aff31092-c14a-4241-907f-bc055dd0c516")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13604,7 +13902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 51.816 155.194 90)
 			(effects
 				(font
@@ -13640,7 +13938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 50.8 154.94 0)
 			(effects
 				(font
@@ -13649,7 +13947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 50.8 154.94 0)
 			(effects
 				(font
@@ -14156,7 +14454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.544 155.194 90)
 			(effects
 				(font
@@ -14192,7 +14490,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bourns Inc."
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 35.56 154.94 0)
 			(effects
 				(font
@@ -14201,7 +14499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0603-FX-1002ELF"
+		(property "MPN" "0805W8F1002T5E"
 			(at 35.56 154.94 0)
 			(effects
 				(font
@@ -14229,6 +14527,91 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 97.79 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9482a4f-a156-4204-9cca-9def92b35382")
+		(property "Reference" "R16"
+			(at 97.79 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 101.6 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61e7545e-bbe0-4d89-b37f-02e8729748cd")
+		)
+		(pin "1"
+			(uuid "dab86117-faed-4ad2-8ad4-f84bf9323f30")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "R16")
 					(unit 1)
 				)
 			)
