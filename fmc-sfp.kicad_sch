@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FMC-SFP")
-		(date "2024-05-08")
+		(date "2024-05-30")
 		(rev "Rev0")
 		(company "MicroRidge Technology LTD")
 	)
@@ -5157,7 +5157,7 @@
 		(uuid "0e5a91f0-1d36-4bcd-8ed2-23af1aff8bde")
 	)
 	(junction
-		(at 35.56 106.68)
+		(at 59.69 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1024ae9f-98a7-45f8-88ad-98a74f919d83")
@@ -5167,12 +5167,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14ade99c-1fdd-42b7-a9b7-4e3f1c667171")
-	)
-	(junction
-		(at 50.8 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16fb0dbe-7cbb-47e0-844c-67ef19c3458a")
 	)
 	(junction
 		(at 172.72 34.29)
@@ -5187,7 +5181,7 @@
 		(uuid "260d1460-0148-4026-a0ca-011a53006cba")
 	)
 	(junction
-		(at 50.8 106.68)
+		(at 74.93 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27cba88f-7429-450e-9ac8-f32ea4667988")
@@ -5217,16 +5211,16 @@
 		(uuid "428f17a3-5f7a-4680-81df-8cc38f3cdecc")
 	)
 	(junction
-		(at 35.56 162.56)
+		(at 57.15 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46bca37d-3925-4958-bd60-a688788824ae")
+	)
+	(junction
+		(at 57.15 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "470bf400-7896-487c-a41a-8f7f1a59de34")
-	)
-	(junction
-		(at 50.8 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4976db86-5bb4-4a18-8f90-576c28fd0b75")
 	)
 	(junction
 		(at 121.92 34.29)
@@ -5337,10 +5331,22 @@
 		(uuid "7ebf218b-a3b7-4be8-b9b5-e4888bb70089")
 	)
 	(junction
+		(at 59.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "814890a7-6dc4-4e03-9b76-4158916b77a5")
+	)
+	(junction
 		(at 187.96 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87aa814c-66c3-4ce8-bf0d-c5d2da96a2e9")
+	)
+	(junction
+		(at 59.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88175861-f9af-48f9-9c32-d062d0d5979e")
 	)
 	(junction
 		(at 101.6 34.29)
@@ -5379,6 +5385,12 @@
 		(uuid "8b30c592-aeac-4ebc-a499-8b6706ff4961")
 	)
 	(junction
+		(at 72.39 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bb5b4d9-fefc-4a0e-9e41-4d5ee6a7317b")
+	)
+	(junction
 		(at 71.12 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5389,6 +5401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c66bf35-3e58-4d87-8a44-ece1a294df09")
+	)
+	(junction
+		(at 74.93 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2af2ff-a525-4231-a3f3-0ee7cf77de0f")
 	)
 	(junction
 		(at 60.96 34.29)
@@ -5475,7 +5493,7 @@
 		(uuid "ae5175ae-6023-4f0b-bf98-9b209c1680c4")
 	)
 	(junction
-		(at 50.8 162.56)
+		(at 72.39 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0d2bae-cd27-4f1e-8d87-9ecc3dfbd328")
@@ -5605,6 +5623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8ecda7b-1c41-4064-9cc1-c531cf7bcf42")
+	)
+	(junction
+		(at 59.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ccb3ef-3da7-405a-8e2c-45bf4f5b5f82")
 	)
 	(junction
 		(at 78.74 34.29)
@@ -6020,6 +6044,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e3e27d-a8a3-40d6-aca6-9164fc626b3c")
+	)
+	(wire
+		(pts
 			(xy 190.5 64.77) (xy 198.12 64.77)
 		)
 		(stroke
@@ -6290,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 50.8 162.56)
+			(xy 72.39 165.1) (xy 72.39 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6300,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 151.13) (xy 35.56 148.59)
+			(xy 57.15 148.59) (xy 57.15 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6310,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 50.8 106.68)
+			(xy 74.93 109.22) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6320,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 119.38) (xy 35.56 121.92)
+			(xy 59.69 116.84) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6520,16 +6554,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 92.71) (xy 50.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c9368c-c04b-4526-a0de-eddd4dc91b86")
-	)
-	(wire
-		(pts
 			(xy 142.24 62.23) (xy 142.24 64.77)
 		)
 		(stroke
@@ -6537,6 +6561,16 @@
 			(type default)
 		)
 		(uuid "3208c46d-7514-48aa-8b84-1826f4a86db1")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 95.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329b3cfa-660e-4a85-a71a-1447d1ee6bc0")
 	)
 	(wire
 		(pts
@@ -6560,7 +6594,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 177.8) (xy 50.8 177.8)
+			(xy 57.15 175.26) (xy 72.39 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6670,7 +6704,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 121.92) (xy 50.8 121.92)
+			(xy 59.69 119.38) (xy 74.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6700,7 +6734,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 50.8 148.59)
+			(xy 72.39 148.59) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +6984,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 50.8 121.92)
+			(xy 74.93 116.84) (xy 74.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6980,7 +7014,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 78.74 109.22)
+			(xy 29.21 105.41) (xy 29.21 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7060,7 +7094,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 35.56 158.75)
+			(xy 57.15 160.02) (xy 57.15 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7150,7 +7184,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 95.25) (xy 35.56 92.71)
+			(xy 59.69 92.71) (xy 59.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7214,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 162.56) (xy 50.8 162.56)
+			(xy 68.58 160.02) (xy 72.39 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7250,6 +7284,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 161.29) (xy 57.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b29854-3287-4992-af0f-fe57f151f001")
+	)
+	(wire
+		(pts
 			(xy 96.52 62.23) (xy 96.52 64.77)
 		)
 		(stroke
@@ -7270,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 162.56) (xy 35.56 162.56)
+			(xy 60.96 160.02) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7440,7 +7484,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 35.56 111.76)
+			(xy 59.69 104.14) (xy 59.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7504,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 162.56) (xy 50.8 158.75)
+			(xy 72.39 160.02) (xy 72.39 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7510,6 +7554,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 158.75) (xy 95.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f154470-0a26-4853-a00c-d2cba5ca6471")
+	)
+	(wire
+		(pts
 			(xy 45.72 36.83) (xy 45.72 34.29)
 		)
 		(stroke
@@ -7540,6 +7594,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 158.75) (xy 72.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962d4725-4351-442d-8b52-a3f588946513")
+	)
+	(wire
+		(pts
 			(xy 132.08 34.29) (xy 139.7 34.29)
 		)
 		(stroke
@@ -7560,7 +7624,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 50.8 92.71)
+			(xy 74.93 92.71) (xy 74.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7730,7 +7794,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 106.68) (xy 35.56 106.68)
+			(xy 44.45 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81ac0f4-447b-41ea-a5b6-3cd887195f0f")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7760,7 +7834,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 35.56 177.8)
+			(xy 57.15 172.72) (xy 57.15 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7800,13 +7874,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 148.59) (xy 50.8 148.59)
+			(xy 57.15 146.05) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae021de2-b067-462b-9b55-dcdc58532cbb")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae82052b-9d7c-4206-a97c-344c604e2b56")
 	)
 	(wire
 		(pts
@@ -7850,13 +7934,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 102.87) (xy 35.56 106.68)
+			(xy 59.69 100.33) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4135730-d579-42e2-bee5-926f36057fea")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b420c7fa-c82b-415b-a6e3-8ceacc9bab9a")
 	)
 	(wire
 		(pts
@@ -7900,7 +7994,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 100.33) (xy 78.74 106.68)
+			(xy 29.21 92.71) (xy 29.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7930,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 102.87) (xy 50.8 106.68)
+			(xy 74.93 100.33) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7957,6 +8051,16 @@
 			(type default)
 		)
 		(uuid "bfc1c0ff-269a-4fd2-ac1a-3aab1fef004b")
+	)
+	(wire
+		(pts
+			(xy 57.15 161.29) (xy 95.25 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2000076-9975-4961-a153-ba5fb2b19ed7")
 	)
 	(wire
 		(pts
@@ -8000,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 63.5 121.92)
+			(xy 44.45 101.6) (xy 44.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8010,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 35.56 167.64)
+			(xy 57.15 160.02) (xy 57.15 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8110,7 +8214,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 175.26) (xy 50.8 177.8)
+			(xy 72.39 172.72) (xy 72.39 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8220,7 +8324,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 106.68) (xy 50.8 106.68)
+			(xy 71.12 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8230,17 +8334,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 92.71) (xy 50.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea60a447-7832-42f9-844c-293aa7a7e9d8")
-	)
-	(wire
-		(pts
-			(xy 63.5 106.68) (xy 63.5 92.71)
+			(xy 44.45 99.06) (xy 44.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8310,6 +8404,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 102.87) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f586fcce-bcf3-4cfe-811e-aa6d71449d3d")
+	)
+	(wire
+		(pts
 			(xy 251.46 64.77) (xy 251.46 62.23)
 		)
 		(stroke
@@ -8370,7 +8474,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 121.92) (xy 50.8 121.92)
+			(xy 44.45 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8495,7 +8599,7 @@
 		(uuid "1f515d98-1ff2-4606-8004-41fc292aabe3")
 	)
 	(label "bias_hi"
-		(at 43.18 92.71 0)
+		(at 67.31 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8549,17 +8653,6 @@
 		)
 		(uuid "38792f7e-d803-4d86-982c-84acf137ca8b")
 	)
-	(label "FMC_LA32_P"
-		(at 50.8 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "418b67b7-3f9e-4094-a0eb-e66ae6173d4b")
-	)
 	(label "lvds_0_tx_P"
 		(at 156.21 110.49 0)
 		(fields_autoplaced yes)
@@ -8572,7 +8665,7 @@
 		(uuid "47e067ff-8914-4895-881c-9c66ead85f7d")
 	)
 	(label "bias_lo"
-		(at 42.164 121.92 0)
+		(at 66.294 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8637,17 +8730,6 @@
 		)
 		(uuid "6b0f6c5b-3c0a-4be5-9042-d8d17741f297")
 	)
-	(label "FMC_LA32_N"
-		(at 35.56 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70e542aa-d07c-45cf-8cce-884ad73f86dd")
-	)
 	(label "lvds_1_rx_P"
 		(at 152.4 148.59 0)
 		(fields_autoplaced yes)
@@ -8671,7 +8753,7 @@
 		(uuid "7ad389cf-652f-4090-b762-beacb2c7a83b")
 	)
 	(label "bias_lo"
-		(at 42.418 177.8 0)
+		(at 64.008 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8814,17 +8896,6 @@
 		(uuid "bb95f5b5-a43f-4f95-a25c-dc6c133a6af3")
 	)
 	(label "FMC_LA09_N"
-		(at 35.56 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6738a26-300b-428d-b286-45629b302c15")
-	)
-	(label "FMC_LA09_N"
 		(at 86.36 74.93 90)
 		(fields_autoplaced yes)
 		(effects
@@ -8869,7 +8940,7 @@
 		(uuid "db92d792-3e84-4791-aa49-816003f6876f")
 	)
 	(label "bias_hi"
-		(at 39.878 148.59 0)
+		(at 61.468 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8878,17 +8949,6 @@
 			(justify left bottom)
 		)
 		(uuid "f4bed822-50bb-4221-9607-2d9b7c22d3e4")
-	)
-	(label "FMC_LA09_P"
-		(at 50.8 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5fbe329-2734-4d96-bc9a-a3fb76276840")
 	)
 	(label "FMC_LA32_P"
 		(at 246.38 74.93 90)
@@ -9314,7 +9374,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 171.45 0)
+		(at 72.39 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9323,7 +9383,7 @@
 		(fields_autoplaced yes)
 		(uuid "195d5a8f-6205-42d6-9eb0-d6412f2937e7")
 		(property "Reference" "R14"
-			(at 53.34 170.1799 0)
+			(at 74.93 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9392,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 172.7199 0)
+			(at 74.93 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9401,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 51.816 171.704 90)
+			(at 73.406 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9419,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +9428,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +9437,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,7 +9446,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +9455,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 50.8 171.45 0)
+			(at 72.39 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10094,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b1b3996-5f56-4db8-877a-f2ef484b4385")
 		(property "Reference" "J7"
 			(at 206.4904 146.05 0)
@@ -10123,7 +10182,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 99.06 0)
+		(at 59.69 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10132,7 +10191,7 @@
 		(dnp no)
 		(uuid "4ed4a278-4d84-4fc3-aaac-d4e045842013")
 		(property "Reference" "R4"
-			(at 33.02 97.7899 0)
+			(at 57.15 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10200,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 33.02 100.3299 0)
+			(at 57.15 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +10209,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 34.544 99.314 90)
+			(at 58.674 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10227,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10236,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10245,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10254,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10263,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 35.56 99.06 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11091,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 71.12 106.68 180)
+		(at 36.83 99.06 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11041,7 +11101,7 @@
 		(fields_autoplaced yes)
 		(uuid "669ce8bf-2402-4b49-8ae5-3588895a5841")
 		(property "Reference" "SW1"
-			(at 71.12 99.06 0)
+			(at 36.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11109,7 @@
 			)
 		)
 		(property "Value" "CHS-02TB"
-			(at 71.12 101.6 0)
+			(at 36.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm"
-			(at 71.12 106.68 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 106.68 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11135,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 71.12 106.68 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +11144,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Nidec Components Corporation"
-			(at 71.12 106.68 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11153,7 @@
 			)
 		)
 		(property "MPN" "CHS-02TB"
-			(at 71.12 106.68 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11200,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 101.346 96.52 90)
+			(at 101.6 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 115.57 0)
+		(at 74.93 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11218,7 +11278,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c59bbf-3710-4b50-b149-838c73c9e009")
 		(property "Reference" "R3"
-			(at 53.34 114.2999 0)
+			(at 77.47 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11287,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 116.8399 0)
+			(at 77.47 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 51.816 115.824 90)
+			(at 75.946 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11314,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11323,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +11332,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11341,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +11350,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 50.8 115.57 0)
+			(at 74.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11529,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 43.18 106.68 90)
+		(at 67.31 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11477,7 +11537,7 @@
 		(dnp no)
 		(uuid "78e9d876-f2d1-4550-97e7-49578a24cc46")
 		(property "Reference" "R1"
-			(at 39.37 100.33 90)
+			(at 63.5 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11545,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 43.18 102.87 90)
+			(at 67.31 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11553,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.434 105.664 90)
+			(at 67.564 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11571,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11580,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11529,7 +11589,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11598,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1000T5E"
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +11607,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 43.18 106.68 0)
+			(at 67.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 99.06 0)
+		(at 74.93 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11678,7 +11738,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e72c8d2-9d34-4f65-8952-bd1251fb17ce")
 		(property "Reference" "R2"
-			(at 53.34 97.7899 0)
+			(at 77.47 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11687,7 +11747,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 100.3299 0)
+			(at 77.47 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 51.816 99.314 90)
+			(at 75.946 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,7 +11765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +11774,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11783,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11792,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11801,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11810,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 50.8 99.06 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11775,7 +11835,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 115.57 0)
+		(at 59.69 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11784,7 +11844,7 @@
 		(dnp no)
 		(uuid "820e754e-ab0a-4abb-89c6-dd19ef9037e2")
 		(property "Reference" "R5"
-			(at 32.258 114.554 0)
+			(at 56.388 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +11853,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 33.02 116.8399 0)
+			(at 57.15 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +11862,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 34.544 115.824 90)
+			(at 58.674 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11811,7 +11871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11880,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,7 +11889,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +11898,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +11907,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11916,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 35.56 115.57 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12367,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 113.03 0)
+		(at 29.21 105.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12316,7 +12377,7 @@
 		(fields_autoplaced yes)
 		(uuid "b24e2d81-2fde-4adc-9ec7-1b64d1d68959")
 		(property "Reference" "#PWR011"
-			(at 78.74 119.38 0)
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,7 +12386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 118.11 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +12395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 113.03 0)
+			(at 29.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 113.03 0)
+			(at 29.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 113.03 0)
+			(at 29.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12587,8 @@
 	)
 	(symbol
 		(lib_id "project:VADJ")
-		(at 78.74 100.33 0)
+		(at 29.21 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12535,7 +12597,7 @@
 		(fields_autoplaced yes)
 		(uuid "b78954f9-6525-444b-92f1-f117fd270876")
 		(property "Reference" "#PWR06"
-			(at 78.74 104.14 0)
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12544,7 +12606,7 @@
 			)
 		)
 		(property "Value" "VADJ"
-			(at 78.74 95.25 0)
+			(at 29.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,7 +12614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 100.33 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +12623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 100.33 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VADJ\""
-			(at 78.74 100.33 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12906,7 +12968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 43.18 162.56 90)
+		(at 64.77 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12915,7 +12977,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a4269b-48b9-41d4-a4ee-3092dcfda3fb")
 		(property "Reference" "R6"
-			(at 43.18 156.21 90)
+			(at 64.77 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12923,7 +12985,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 43.18 158.75 90)
+			(at 64.77 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +12993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.434 161.544 90)
+			(at 65.024 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +13002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,7 +13011,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12958,7 +13020,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +13029,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +13038,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1000T5E"
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12985,7 +13047,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 43.18 162.56 0)
+			(at 64.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,7 +13271,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 171.45 0)
+		(at 57.15 168.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13218,7 +13280,7 @@
 		(dnp no)
 		(uuid "d03c3d76-6c0f-4b75-b3f4-78bc5ce214f2")
 		(property "Reference" "R12"
-			(at 33.02 170.1799 0)
+			(at 54.61 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +13289,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 33.02 172.7199 0)
+			(at 54.61 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13298,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 34.544 171.704 90)
+			(at 56.134 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13316,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13325,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13334,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13343,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13352,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 35.56 171.45 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,7 +13842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 154.94 0)
+		(at 72.39 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13789,7 +13851,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0739454-6f8b-4bc4-8bb0-dc1d45ae130f")
 		(property "Reference" "R13"
-			(at 53.34 153.6699 0)
+			(at 74.93 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13860,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 156.2099 0)
+			(at 74.93 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13807,7 +13869,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 51.816 155.194 90)
+			(at 73.406 152.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13816,7 +13878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +13887,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13896,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13905,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13914,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13923,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 50.8 154.94 0)
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14394,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 154.94 0)
+		(at 57.15 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14341,7 +14403,7 @@
 		(dnp no)
 		(uuid "f8a42147-68fe-43fe-bc82-1b4b384eb5d5")
 		(property "Reference" "R11"
-			(at 33.02 153.6699 0)
+			(at 54.61 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14412,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 33.02 156.2099 0)
+			(at 54.61 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14359,7 +14421,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 34.544 155.194 90)
+			(at 56.134 152.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14439,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14448,7 @@
 			)
 		)
 		(property "Comment" "Substitute any 1%"
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,7 +14457,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14404,7 +14466,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,7 +14475,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 35.56 154.94 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
