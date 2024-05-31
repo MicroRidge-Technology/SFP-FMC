@@ -1,5 +1,11 @@
 set -x
 set -e
+if ! which kicad-cli
+then
+    docker run --rm -v $PWD:$PWD  -w $PWD -it  kicad/kicad:8.0.2 bash $0 $*
+    exit $?
+fi
+
 PROJECT=$1
 rm -rf manufacture
 mkdir manufacture
