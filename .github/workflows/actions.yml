@@ -16,7 +16,18 @@ env:
   PROJECT : 'fmc-sfp'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  drc:
+  Run DRC:
+    container:
+      image: kicad/kicad:8.0.2
+      options: --user root 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run PCB DRC
+        run: kicad-cli pcb drc --exit-code-violations --schematic-parity ${{env.PROJECT}}.kicad_pcb
+      - name: Run Schematic  ERC
+        run: kicad-cli sch erc --exit-code-violations  ${{env.PROJECT}}.kicad_sch
+          
+  Generate Board Files:
     runs-on: ubuntu-latest
     container:
       image: kicad/kicad:8.0.2
