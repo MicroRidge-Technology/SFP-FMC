@@ -9810,7 +9810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -10523,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -11566,6 +11566,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ad38bda-e110-41f1-86c0-2074e6f86439")
+		(property "Reference" "TP9"
+			(at 38.1 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5015"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba4846c-8754-4a7d-9d17-013b07049add")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 275.59 109.22 180)
 		(unit 1)
@@ -11627,6 +11711,73 @@
 			(project "fmc-sfp"
 				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f2774ad-45ff-45a3-97ff-ec1fea564d91")
+		(property "Reference" "#PWR06"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae37d3f-2abc-4bc2-8b23-b3d171814e3f")
+		)
+		(instances
+			(project "fmc-sfp"
+				(path "/9a4127e9-981d-42fd-bc3c-a0fb85e0287b"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12309,7 +12460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -12481,7 +12632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 248.92 80.01 0)
 			(effects
 				(font
@@ -12793,7 +12944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -12992,7 +13143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 86.36 80.01 0)
 			(effects
 				(font
@@ -13124,7 +13275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 208.28 69.85 0)
 			(effects
 				(font
@@ -13256,7 +13407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 170.18 69.85 0)
 			(effects
 				(font
