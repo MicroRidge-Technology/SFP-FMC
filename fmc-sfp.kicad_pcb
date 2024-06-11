@@ -2976,7 +2976,7 @@
 		(path "/44dc29b7-46a6-4e84-a0b5-76eb54f96473")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -3373,7 +3373,7 @@
 		(path "/7ebe9e65-c7e6-4237-b69e-7451ae9c8411")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -6820,7 +6820,7 @@
 		(path "/a8f14984-617c-4f7b-9e85-fd7bac5d25ed")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -6942,7 +6942,7 @@
 		(path "/985b9852-3e53-4685-b455-95b5662965cd")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -9007,7 +9007,7 @@
 		(path "/b0a4cee3-4097-45d6-99c8-a4b6cfd33894")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -9665,7 +9665,7 @@
 		(path "/17ca694a-9125-4acc-8627-f80c509b963d")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -12282,7 +12282,7 @@
 		(path "/8798d59e-a88a-4b50-9e62-bbf2ad6f884d")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -13527,7 +13527,7 @@
 		(path "/a219b6d8-53d2-459b-bc46-8f2483e0728e")
 		(sheetname "Root")
 		(sheetfile "fmc-sfp.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -2.25)
@@ -15048,7 +15048,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Git Commit:"
+	(gr_text "Git Commit:Rev0a-16-g620039f-dirty"
 		(at 100.9 89.9 0)
 		(layer "F.SilkS")
 		(uuid "101b32b5-1879-4f56-a0c6-c12954d1e9da")
