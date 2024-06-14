@@ -12,7 +12,7 @@ mkdir manufacture
 
 #Set commit in silkscreen
 githash=$(git describe --tags --always --dirty)
-sed -i "s/Git Commit:.*\"/Git Commit:$githash\"/" ${PROJECT}.kicad_pcb 
+sed -i "s/Git Commit:.*\"/$githash\"/" ${PROJECT}.kicad_pcb 
 sed -i "s/(rev .*)/(rev \"$githash\")/" *.kicad_sch
 
 kicad-cli pcb export drill ${PROJECT}.kicad_pcb  -o manufacture/
