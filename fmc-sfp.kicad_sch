@@ -12792,7 +12792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm"
 			(at 38.1 142.24 0)
 			(effects
 				(font
@@ -12811,6 +12811,24 @@
 			)
 		)
 		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "DongGuan KINGTEK Industrial Co.,LTD "
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DongGuan KINGTEK Industrial Co.,LTD "
 			(at 38.1 142.24 0)
 			(effects
 				(font
