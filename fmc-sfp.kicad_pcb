@@ -4692,7 +4692,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 3 0)
+			(at -4.6 0 90)
 			(layer "B.SilkS")
 			(uuid "0736e9ec-e5b0-4608-8b9d-70d7cd6cf84a")
 			(effects
