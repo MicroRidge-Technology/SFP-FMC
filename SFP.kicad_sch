@@ -3755,7 +3755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.7548 104.14 0)
 			(effects
 				(font
@@ -3774,6 +3774,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 172.72 100.33 0)
 			(effects
 				(font
@@ -3954,7 +3972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 222.25 110.49 0)
 			(effects
 				(font
@@ -3963,7 +3981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0805W8F1001T5E"
 			(at 222.25 110.49 0)
 			(effects
 				(font
@@ -5332,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.7748 104.14 0)
 			(effects
 				(font
@@ -5351,6 +5369,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104M5RAC7867"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -5513,7 +5549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 153.67 109.22 0)
 			(effects
 				(font
@@ -5522,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0805W8F1001T5E"
 			(at 153.67 109.22 0)
 			(effects
 				(font
@@ -5783,7 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -5792,7 +5828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0805W8F1001T5E"
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -6353,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "UNI-ROYAL(Uniroyal Elec) "
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -6362,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0805W8F1001T5E"
 			(at 214.63 110.49 0)
 			(effects
 				(font

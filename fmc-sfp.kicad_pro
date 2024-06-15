@@ -606,7 +606,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Comment"
+      "sort_field": "MANUFACTURER"
     },
     "connection_grid_size": 50.0,
     "drawing": {
