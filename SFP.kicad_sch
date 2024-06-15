@@ -6774,6 +6774,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXS0108EPW"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6678dcff-ef23-4a60-bf64-52ba1baa7bd4")
 		)
