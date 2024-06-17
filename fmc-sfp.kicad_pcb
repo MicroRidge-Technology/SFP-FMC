@@ -13261,7 +13261,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "DongGuan KINGTEK Industrial Co.,LTD "
+		(property "MPN" "DSHP04TSGET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
