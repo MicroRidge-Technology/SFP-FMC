@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FMC-SFP")
-		(date "2024-06-11")
-		(rev "Rev0a-16-g620039f-dirty")
+		(date "2024-08-06")
+		(rev "Rev1-2-g26e7d07")
 		(company "MicroRidge Technology LTD")
 	)
 	(lib_symbols
