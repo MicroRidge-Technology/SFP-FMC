@@ -7,7 +7,7 @@
 	(title_block
 		(title "FMC-SFP")
 		(date "2024-08-06")
-		(rev "Rev1-2-g26e7d07")
+		(rev "Rev1")
 		(company "MicroRidge Technology LTD")
 	)
 	(lib_symbols

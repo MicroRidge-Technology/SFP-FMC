@@ -26,4 +26,5 @@ kicad-cli sch export bom -o manufacture/bom.csv --group-by Value \
           --fields '${ITEM_NUMBER},Reference,${QUANTITY},MANUFACTURER,MPN,Value,Footprint,${DNP}' \
           --labels 'Item #,Designator,Qty,Manufacture,Mfg Part#,Value,Footprint,dnp' \
           fmc-sfp.kicad_sch
-kicad-cli sch export pdf -o manufacture/schematic.pdf fmc-sfp.kicad_sch
+kicad-cli sch export pdf -o manufacture/${PROJECT}.pdf ${PROJECT}.kicad_sch
+kicad-cli sch export pdf -o doc/${PROJECT}.pdf ${PROJECT}.kicad_sch
