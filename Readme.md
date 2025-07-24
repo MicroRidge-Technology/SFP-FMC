@@ -1,6 +1,6 @@
 # FMC SFP Card
 
-This project is designed to allow using sfp cables with the LVDS pins of an FPGA as opposed to the GTX pins.
+This project is designed to allow using sfp cables with the LVDS pins of an FPGA as opposed to the GTX pins. It provides testpoints to monitor the lvds signals with an oscilliscope.
 
 # Pins Used
 
@@ -26,3 +26,6 @@ Top
 Bottom
 ![bottom](doc/fmc-sfp-bottom.jpg)
 
+# Limitations 
+
+This board is designed to work with low frequency signals (<200MHz)  GHz+ signals will certainly fail.
